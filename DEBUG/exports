@@ -1,0 +1,4 @@
+export ARCH=arm
+export PATH=/opt/gcc-arm-8.3-2019.03-x86_64-arm-eabi/bin:$PATH
+export CROSS_COMPILE='ccache arm-eabi-'
+export KDIR=$HOME/repos/linux-stable
